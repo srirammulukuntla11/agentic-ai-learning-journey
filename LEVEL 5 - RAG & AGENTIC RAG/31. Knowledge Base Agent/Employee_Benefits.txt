@@ -1,0 +1,58 @@
+Company Employee Benefits
+
+Health Insurance:
+Employees are provided with health insurance coverage according to the company's benefits plan.
+
+Performance Bonus:
+Eligible employees may receive an annual performance bonus based on company and individual performance.
+
+Transportation Allowance:
+Eligible employees receive a monthly transportation allowance.
+
+Learning and Development:
+Employees can participate in company-sponsored training programs and professional development activities.
+
+Paid Holidays:
+Employees receive paid time off for official company holidays.
+
+Employee Support:
+Employees can contact the Human Resources department for questions about benefits and eligibility.
+
+31.
+
+🤖 Built a Multi-Document Knowledge Base Agent using n8n + Gemini
+Problem:
+Traditional document search becomes difficult when information is spread across multiple documents. Users need a way to ask questions naturally and retrieve information from a unified knowledge base.
+Solution:
+I built a Knowledge Base Agent using n8n, Google Gemini, OpenAI Embeddings, and a Vector Store that can search across multiple documents and generate answers using the retrieved information.
+Workflow:
+📄 Upload multiple knowledge documents
+↓
+📚 Load and process documents
+↓
+✂️ Split documents into chunks
+↓
+🧠 Generate embeddings
+↓
+🗄️ Store knowledge in a vector store
+↓
+🤖 AI Agent receives the user's question
+↓
+🔍 Knowledge Base Search retrieves relevant information
+↓
+💬 Gemini generates the final answer
+How it works:
+The system creates embeddings for the uploaded documents and stores them in a vector store. When a user asks a question, the AI Agent uses the Knowledge Base Search tool to retrieve relevant information from the available knowledge and passes it to Gemini to generate the response.
+Concepts Implemented:
+🔹 Multi-document knowledge base
+🔹 RAG
+🔹 Vector embeddings
+🔹 Semantic search
+🔹 Document chunking
+🔹 AI Agent + Tool usage
+🔹 Vector Store
+🔹 LLM-based answer generation
+🔹 n8n workflow automation
+Result:
+Successfully tested the agent across multiple knowledge areas including Leave Policy, Work From Home Policy, and Employee Benefits, with the agent retrieving relevant information and generating contextual answers. ✅
+#n8n #AgenticAI #RAG #AI #GenerativeAI #GoogleGemini #LLM #VectorDatabase #Embeddings #AIEngineering #Automation #ArtificialIntelligence #LearningInPublic

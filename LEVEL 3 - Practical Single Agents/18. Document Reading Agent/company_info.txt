@@ -1,0 +1,70 @@
+ABC Technologies
+
+ABC Technologies is a software company founded in 2018.
+
+Headquarters: Hyderabad, India
+
+The company has 500 employees.
+
+Main areas of business:
+- Artificial Intelligence
+- Cloud Computing
+- Software Development
+- Data Analytics
+
+The company has development teams in Hyderabad and Bengaluru.
+
+The CEO is Vishal.
+
+The company focuses on building AI-powered enterprise software solutions.
+
+
+19.
+
+🚀 PDF Question-Answering Agent
+
+Built a PDF Question-Answering Agent using n8n and Google Gemini that allows users to upload a PDF and ask questions about its content.
+
+🔴 Problem
+
+Finding specific information inside PDF documents can be time-consuming, especially when users need to manually read through the entire document.
+
+💡 Solution
+
+Created an AI-powered workflow that accepts a PDF, extracts its text, understands the user's question, and generates an answer based only on the uploaded document.
+
+⚙️ Workflow
+
+PDF Upload → PDF Text Extraction → AI Agent → Document Analysis → Answer → User
+
+🛠️ Technologies Used
+n8n
+Google Gemini
+n8n Form
+PDF Text Extraction
+AI Agent
+🧠 Concepts Implemented
+PDF Processing
+Text Extraction
+Document Understanding
+Context-Based Question Answering
+Binary Data Handling
+AI Agent Reasoning
+User-Facing AI Output
+📌 Example
+
+Question:
+
+How many employees does the company have?
+
+Answer:
+
+The company currently has 500 employees.
+
+The answer is generated using information extracted from the uploaded PDF.
+
+✅ Result
+
+Successfully built an AI agent capable of reading PDF documents, answering questions based on their content, and displaying the answer directly to the user.
+
+#AI #ArtificialIntelligence #AgenticAI #AIAgents #n8n #GoogleGemini #PDFProcessing #DocumentAI #GenerativeAI #Automation

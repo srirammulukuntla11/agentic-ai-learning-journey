@@ -1,0 +1,23 @@
+Agentic AI is an AI system that can reason about a goal, plan tasks, use tools, and execute actions.
+
+Core components of an Agentic AI system include:
+- LLM
+- Planning
+- Tools
+- Memory
+- Retrieval
+- APIs
+- Databases
+- Error handling
+- Human approval
+
+A typical agent loop is:
+1. Receive a goal.
+2. Understand the goal.
+3. Create a plan.
+4. Select and use tools.
+5. Observe results.
+6. Continue or revise the plan.
+7. Produce the final result.
+
+Agentic AI can be used for software development, research, customer support, data analysis, and business process automation.
